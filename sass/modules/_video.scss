@@ -1,0 +1,49 @@
+ #Video_area {
+     #bigVideo {
+         width: 375px;
+         height: 275px;
+     }
+ }
+ 
+ .video_smallbox {
+     width: 1px;
+     position: relative;
+     float: left;
+     cursor: pointer;
+     margin: 55px;
+     bottom: 100px;
+     right: 30px;
+     #mini333,
+     #mini555,
+     #clubmen {
+         width: 100px;
+         height: 65px;
+     }
+ }
+ 
+ @media screen and (min-width: 1024px) {
+     #Video_area {
+         margin-left: 100px;
+         margin-top: 120px;
+         margin-bottom: 50px;
+         #bigVideo {
+             width: 1000px;
+             height: 530px;
+         }
+     }
+     .video_smallbox {
+         width: 150px;
+         position: relative;
+         float: left;
+         margin: 15px;
+         left: 140px;
+         cursor: pointer;
+         bottom: 100px;
+         #mini333,
+         #mini555,
+         #clubmen {
+             width: 150px;
+             height: 100px;
+         }
+     }
+ }

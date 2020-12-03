@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniCooper</title>
+
+    <!-- this has to be a css file -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+    <div id="siteContainer">
+        <header id="mainHeader">
+            <div id="logo">
+                <img class="iconImage" src="images/logo.png" alt="productImage">
+            </div>
+            <nav id="mainNav">
+                <!-- Close logo-->
+                <ul class="menu ">
+                    <li><a href="">Models</a></li>
+                    <li><a href="">Shopping Tools</a></li>
+                    <li><a href="">Discover</a></li>
+
+                </ul>
+            </nav>
+            <!-- Close mainNav -->
+        </header>
+        <!-- Close mainHeader -->
+
+        <div id="Video_area">
+            <video id="bigVideo" autoplay muted>
+                <source src="images/mini33.mp4" type="video/mp4">
+                    </video>
+        </div>
+        <div id="smallbox">
+            <div class="video_smallbox">
+                <img src="images/mini3.jpg" id="mini333">
+            </div>
+            <div class="video_smallbox">
+                <img src="images/mini5.jpg" id="mini555">
+            </div>
+            <div class="video_smallbox">
+                <img src="images/clubman.jpg" id="clubmen">
+            </div>
+        </div>
+        <div class="Select">
+            <h2>Select your Model</h2>
+        </div>
+        <section class="user-section">
+
+
+            <div class="user_info">
+                <span class="close-button">X</span>
+                <h2></h2>
+                <h3></h3>
+                <p></p>
+
+            </div>
+            <!-- <h1 class="hidden">
+                </h1>
+                <h2 class="user-name"></h2>
+                <p class="user-nickname"></p>
+                <p class="user-role"></p> -->
+        </section>
+
+        <!-- end users section -->
+        <template id="user-template">
+            <div class="user">
+                <h1 class="hidden"></h1>
+                <img src="aaa.jpg" alt="user image">
+                <!-- <h2 class="user-name"></h2>
+                <p class="user-nickname"></p>
+                <p class="user-role"></p> -->
+            </div>
+        </template>
+        <!-- end templates -->
+
+        </main>
+
+        <footer></footer>
+
+        <!-- script files always go here -->
+        <script type="module" src="js/main.js"></script>
+        <script type="module" src="js/video.js"></script>
+    </div>
+</body>
+
+</html>

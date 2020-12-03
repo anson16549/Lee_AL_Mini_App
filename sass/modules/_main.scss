@@ -1,0 +1,35 @@
+#siteContainer {
+    margin: 0 auto;
+    max-width: 375px;
+    background-color: black;
+    height: 1200px;
+}
+
+.Select h2 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        scroll-behavior: smooth;
+    }
+    #siteContainer {
+        margin: 0 auto;
+        max-width: 1200px;
+        background-color: black;
+        height: 1600px;
+    }
+    .Select h2 {
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 180px;
+        margin-right: 420px;
+    }
+}
