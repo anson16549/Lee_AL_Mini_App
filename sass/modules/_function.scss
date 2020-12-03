@@ -1,0 +1,128 @@
+.user_info.showLightbox {
+    display: block;
+    position: fixed;
+    padding: 40px;
+    transform: translateY(0px);
+    z-index: 999;
+    width: 150px;
+    top: 500px;
+    left: 140px;
+    h2 {
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: white;
+    }
+    h3 {
+        color: white;
+        margin-bottom: 30px;
+    }
+    p {
+        font-size: 10px;
+        padding-bottom: 20px;
+        color: white;
+    }
+}
+
+.close-button {
+    color: white;
+    top: 0;
+    font-size: 2em;
+    bottom: 20px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    left: 150px;
+}
+
+.user-section {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0%;
+}
+
+.user {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+    img {
+        width: 150px;
+        margin-top: 40px;
+        margin-left: 16px;
+    }
+}
+
+.user_info {
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    display: block;
+    padding: 0;
+    transform: translateY(900px);
+}
+
+@media screen and (min-width: 1024px) {
+    .user_info.showLightbox {
+        display: block;
+        text-align: center;
+        position: fixed;
+        padding: 40px;
+        top: 640px;
+        left: 1000px;
+        transform: translateY(0px);
+        z-index: 999;
+        h2 {
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: white;
+            margin-left: 200px;
+            text-align: center;
+            width: 90px;
+        }
+        h3 {
+            color: white;
+            margin-bottom: 30px;
+            margin-left: 220px;
+        }
+        p {
+            font-size: 20px;
+            padding-bottom: 20px;
+            color: white;
+            width: 510px;
+        }
+    }
+    .close-button {
+        color: white;
+        top: 0;
+        font-size: 2em;
+        bottom: 20px;
+        left: 450px;
+        padding: 10px;
+        cursor: pointer;
+        position: relative;
+    }
+    .user {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        cursor: pointer;
+        img {
+            width: 80%;
+            margin-top: 60px;
+            margin-left: 62px;
+        }
+    }
+    .user_info {
+        width: 300px;
+        position: fixed;
+        display: block;
+        padding: 0;
+        transform: translateY(900px);
+    }
+}
